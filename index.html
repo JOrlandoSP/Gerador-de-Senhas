@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Random Password Generator</title>
+<script src="app.js"></script>
+<link rel="stylesheet" href="index.css">
+</head>
+<link href='https://fonts.googleapis.com/css?family=Karla' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+<body>
+	<section>
+		<div id="panel">
+			<section id="banner">
+				<h1>Generate a</h1>
+				<h2>random password</h2>
+			</section>
+			<p id="moto">Never use a insecure password again</p>
+			<p id="span-el">Password generated! click to copy.</p>
+			<p id="enable">Enable use:</p>
+			<div id="option-line"></div>
+				<section id="controls">	
+					<button onclick="genPass()" id="generate-el">Generate passwords</button>
+					<div id="options">
+						<div class="slider-container">
+							<p id="symbols">Symbols</p>
+							<label class="switch">
+								<input type="checkbox" checked>
+								<span class="slider round"></span>
+							  </label>
+						</div>
+						<div class="slider-container">
+							<p id="numbers">Numbers</p>
+							<label class="switch">
+								<input type="checkbox" checked>
+								<span class="slider round"></span>
+							  </label>
+						</div>
+					</div>
+				</section>
+			<div id="line"></div>
+				<section id="password-section">
+					<p id="pass-el-1"></p>
+					<p id="pass-el-2">pa$$w0rd2</p>
+				</section>
+		</div>
+	</section>
+</body>
+</html>

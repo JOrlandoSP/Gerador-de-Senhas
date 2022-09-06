@@ -2,7 +2,7 @@
 
 ## Password Generator é um gerador de senhas randomicas.
 
-O gerador de senhas é um projeto proposto no curso de JavaScript da plataforma Scrimba, a aplicação foi concebida com base nas especificações solicitadas e a estettica proposta no projeto encontrado no seguinte ![link do Figma]("https://www.figma.com/file/xUEcMBUmUTLkRRGBKJG2Bh/Random-Password-Generator-(New-version)-(Copy)")
+O gerador de senhas é um projeto proposto no curso de JavaScript da plataforma Scrimba, a aplicação foi concebida com base nas especificações solicitadas e a estettica proposta no projeto encontrado no seguinte [link do Figma](https://www.figma.com/file/xUEcMBUmUTLkRRGBKJG2Bh/Random-Password-Generator-(New-version)-(Copy))
 
 **Caracteristicas**
 

@@ -50,7 +50,6 @@ function genPassWd(){
 
 /* 
     NEED TO BE FIXED
-
     function copy11(){
     let c1 = document.getElementById("pass-el-1")
     c1.textContent();
@@ -66,7 +65,7 @@ function copy1() {
     window.getSelection().addRange(range); // to select text
     document.execCommand("copy");
     window.getSelection().removeAllRanges();// to deselect
-    spanEl.textContent = "Password copied to clipboard!";
+    spanEl.textContent = "New password copied to clipboard!";
 }
 
 function copy2() {
@@ -76,7 +75,8 @@ function copy2() {
     window.getSelection().addRange(range); // to select text
     document.execCommand("copy");
     window.getSelection().removeAllRanges();// to deselect
-    spanEl.textContent = "Password copied to clipboard!";
+    spanEl.textContent = "New password copied to clipboard!";
 }
+
 
 
